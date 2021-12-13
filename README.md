@@ -11,9 +11,10 @@ Solr 8.9.0
 
 ### Requirements:
 
--Privileged access to your server
--wget
--tar
+- Privileged access to your server
+- wget
+- tar
+- gzip
 
 
 ### Usage
