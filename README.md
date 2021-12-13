@@ -1,8 +1,12 @@
-# TYPO3-solr-patcher
-Small shell script that patches Apache solr versions needed for EXT:solr
+# TYPO3-solr-patcher (log4shell CVE-2021-44228)
+Small shell script that patches Apache solr versions needed for EXT:solr 
 
 
-I used this script to patch our Solr Servers that we use for our TYPO3 based web sites.
+I used this script to patch our Solr Servers that we use for our TYPO3 based web sites.  
+It patches the startup script solr.in.sh, backups the previous lib4j files, downloads version 2.15.0 and copies them to Solr's library directory.  
+
+This is a quick hack solution, but it works so far.  
+
 
 Tested and working in
 
